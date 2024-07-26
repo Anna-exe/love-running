@@ -6,9 +6,6 @@
     margin:0%;
     box-sizing: border-box;
 }
-h1{
-    
-}
 /* General styles */
 body {
 /* Take up the entire vertical height of the user's screen */
@@ -21,7 +18,12 @@ font-family: 'Lato', sans-serif;
 }
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem; /*prevent text "sticking" to the sides of a screen*/
+    position: fixed;
+    z-index: 99;/*positioning header on top of other elements who will have smaller z-index*/
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 h1{
     font-family: 'Oswald', sans-serif;
